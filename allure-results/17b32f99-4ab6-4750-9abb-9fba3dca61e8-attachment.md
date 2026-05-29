@@ -1,0 +1,242 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - text:   
+  - generic [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link "" [ref=e5] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e6]: 
+    - generic [ref=e9]:
+      - button "support_206 ЦАРЁВА Е. В. 1, Рентгенология" [ref=e10] [cursor=pointer]:
+        - img [ref=e12]
+        - text: support_206
+        - text: ЦАРЁВА Е. В.
+        - text: 1, Рентгенология
+      - text: 
+    - list [ref=e14]:
+      - listitem [ref=e15]:
+        - link " Пользователи" [ref=e16] [cursor=pointer]:
+          - /url: /Authentication/User
+          - generic [ref=e17]: 
+          - text: Пользователи
+      - listitem [ref=e18]:
+        - link " Роли" [ref=e19] [cursor=pointer]:
+          - /url: /Authentication/Role
+          - generic [ref=e20]: 
+          - text: Роли
+      - listitem [ref=e21]:
+        - link " Действия с пользователем" [ref=e22] [cursor=pointer]:
+          - /url: /Authentication/UserAction
+          - generic [ref=e23]: 
+          - text: Действия с пользователем
+      - listitem [ref=e24]:
+        - link " Пользователи-системы" [ref=e25] [cursor=pointer]:
+          - /url: /Authentication/SystemUser
+          - generic [ref=e26]: 
+          - text: Пользователи-системы
+      - listitem [ref=e27]:
+        - link " Новости" [ref=e28] [cursor=pointer]:
+          - /url: /Authentication/News
+          - generic [ref=e29]: 
+          - text: Новости
+      - listitem [ref=e30]:
+        - link " Заметки" [ref=e31] [cursor=pointer]:
+          - /url: /Authentication/ReleaseNote
+          - generic [ref=e32]: 
+          - text: Заметки
+      - listitem [ref=e33]:
+        - link " Уведомления" [ref=e34] [cursor=pointer]:
+          - /url: /Authentication/Notification
+          - generic [ref=e35]: 
+          - text: Уведомления
+      - listitem [ref=e36]:
+        - link " Счетчики сайта" [ref=e37] [cursor=pointer]:
+          - /url: /Authentication/SiteCounter/Edit
+          - generic [ref=e38]: 
+          - text: Счетчики сайта
+      - listitem [ref=e39]:
+        - link "Карта разрешений" [ref=e40] [cursor=pointer]:
+          - /url: /Authentication/DataAccess
+      - listitem [ref=e41]:
+        - link "Заявки на доступ" [ref=e42] [cursor=pointer]:
+          - /url: /Authentication/HelpDescAccess
+      - listitem [ref=e43]:
+        - link "Управление секретностью" [ref=e44] [cursor=pointer]:
+          - /url: /Authentication/SecretLevelManage
+  - generic [ref=e45]:
+    - generic [ref=e47]:
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "Модули" [ref=e50] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e51]:
+          - link "Главная" [ref=e52] [cursor=pointer]:
+            - /url: /Authentication/Home
+        - listitem [ref=e53]:
+          - link "Заметки" [ref=e54] [cursor=pointer]:
+            - /url: /Authentication/ReleaseNote/ReleaseNotes
+        - listitem [ref=e55]:
+          - link "Новости" [ref=e56] [cursor=pointer]:
+            - /url: /Authentication/News/News
+        - listitem [ref=e57]:
+          - link "Руководства" [ref=e58] [cursor=pointer]:
+            - /url: /Authentication/Manual
+        - listitem [ref=e59]:
+          - link "Обучение" [ref=e60] [cursor=pointer]:
+            - /url: /Authentication/Tutorial
+        - listitem [ref=e61]:
+          - link "Интерактивное обучение" [ref=e62] [cursor=pointer]:
+            - /url: https://wiki-test.dmed.kz/home?nodeCode=Training
+        - listitem [ref=e63]:
+          - link "Протоколы лечения" [ref=e64] [cursor=pointer]:
+            - /url: https://wikiru.damumed.kz/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B_%D0%B4%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B8_%D0%B8_%D0%BB%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F
+        - listitem [ref=e65]:
+          - link "Помощь Фонда Новые" [ref=e66] [cursor=pointer]:
+            - /url: /Authentication/FmsHelp
+            - text: Помощь Фонда
+            - paragraph [ref=e68]: Новые
+        - listitem [ref=e69]:
+          - link "FAQ Новые" [ref=e70] [cursor=pointer]:
+            - /url: https://wikiru.damumed.kz/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5_%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%9C%D0%98%D0%A1
+            - text: FAQ
+            - paragraph [ref=e72]: Новые
+      - list [ref=e73]:
+        - listitem [ref=e74]:
+          - button "" [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]: 
+        - listitem [ref=e78]:
+          - link "" [ref=e79] [cursor=pointer]:
+            - /url: /Authentication/Authentication/SignOut?userName=support_206
+            - generic [ref=e80]: 
+      - button "" [ref=e81] [cursor=pointer]:
+        - generic [ref=e82]: 
+    - generic [ref=e83]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e91]:
+            - heading "31 декабрь" [level=3] [ref=e92]
+            - heading "С наступающим 2025!" [level=4] [ref=e94]
+            - link "Подробнее" [ref=e96] [cursor=pointer]:
+              - /url: /authentication/releaseNote/item/20019
+          - generic [ref=e98]:
+            - heading "13 апрель" [level=3] [ref=e99]
+            - heading "23235235235235" [level=4] [ref=e101]
+            - link "Подробнее" [ref=e103] [cursor=pointer]:
+              - /url: /authentication/releaseNote/item/10009
+          - generic [ref=e105]:
+            - heading "26 март" [level=3] [ref=e106]
+            - heading "ВНИМАНИЕ! Ознакомьтесь пожалуйста со списком обновлений" [level=4] [ref=e108]
+            - link "Подробнее" [ref=e110] [cursor=pointer]:
+              - /url: /authentication/releaseNote/item/10008
+        - link "Все заметки" [ref=e114] [cursor=pointer]:
+          - /url: /authentication/releaseNote/releaseNotes
+      - generic [ref=e117]:
+        - heading "Новости Все новости" [level=3] [ref=e118]:
+          - text: Новости
+          - link "Все новости" [ref=e119] [cursor=pointer]:
+            - /url: /authentication/news/news
+        - generic [ref=e120]:
+          - list [ref=e121]:
+            - listitem [ref=e122] [cursor=pointer]
+            - listitem [ref=e123] [cursor=pointer]
+            - listitem [ref=e124] [cursor=pointer]
+            - listitem [ref=e125] [cursor=pointer]
+          - listbox [ref=e126]:
+            - generic [ref=e127]:
+              - heading "24.06.2022" [level=5] [ref=e130]
+              - heading "Тест" [level=3] [ref=e133]
+              - link "Подробнее" [ref=e136] [cursor=pointer]:
+                - /url: /authentication/news/item/20075
+          - button "Previous" [ref=e137] [cursor=pointer]:
+            - generic [ref=e138]: 
+            - generic [ref=e139]: Previous
+          - button "Next" [ref=e140] [cursor=pointer]:
+            - generic [ref=e141]: 
+            - generic [ref=e142]: Next
+      - generic [ref=e144]:
+        - heading "Обучение Все обучающие ролики" [level=3] [ref=e147]:
+          - text: Обучение
+          - link "Все обучающие ролики" [ref=e148] [cursor=pointer]:
+            - /url: /tutorial
+        - generic [ref=e149]:
+          - iframe [ref=e153]:
+            - generic "YouTube Video Player" [ref=f1e3]:
+              - alert [ref=f1e4]:
+                - generic [ref=f1e5]:
+                  - generic [ref=f1e6]:
+                    - img
+                  - generic [ref=f1e7]:
+                    - link "Watch video on YouTube" [ref=f1e10] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=5Dj4J6zitEw&source_ve_path=MTc4NDI0
+                    - generic [ref=f1e12]:
+                      - text: Error 153
+                      - text: Video player configuration error
+                - link "Visit YouTube to search for more videos" [ref=f1e13] [cursor=pointer]:
+                  - /url: https://www.youtube.com
+                  - img
+          - iframe [ref=e157]:
+            - generic "YouTube Video Player" [ref=f2e3]:
+              - alert [ref=f2e4]:
+                - generic [ref=f2e5]:
+                  - generic [ref=f2e6]:
+                    - img
+                  - generic [ref=f2e7]:
+                    - link "Watch video on YouTube" [ref=f2e10] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=91xEujAVeaM&source_ve_path=MTc4NDI0
+                    - generic [ref=f2e12]:
+                      - text: Error 153
+                      - text: Video player configuration error
+                - link "Visit YouTube to search for more videos" [ref=f2e13] [cursor=pointer]:
+                  - /url: https://www.youtube.com
+                  - img
+        - generic [ref=e158]:
+          - iframe [ref=e162]:
+            - generic "YouTube Video Player" [ref=f3e3]:
+              - alert [ref=f3e4]:
+                - generic [ref=f3e5]:
+                  - generic [ref=f3e6]:
+                    - img
+                  - generic [ref=f3e7]:
+                    - link "Watch video on YouTube" [ref=f3e10] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=UJ6IdowiTYI&source_ve_path=MTc4NDI0
+                    - generic [ref=f3e12]:
+                      - text: Error 153
+                      - text: Video player configuration error
+                - link "Visit YouTube to search for more videos" [ref=f3e13] [cursor=pointer]:
+                  - /url: https://www.youtube.com
+                  - img
+          - iframe [ref=e166]:
+            - generic "YouTube Video Player" [ref=f4e3]:
+              - alert [ref=f4e4]:
+                - generic [ref=f4e5]:
+                  - generic [ref=f4e6]:
+                    - img
+                  - generic [ref=f4e7]:
+                    - link "Watch video on YouTube" [ref=f4e10] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=yA-TmWrPlw4&source_ve_path=MTc4NDI0
+                    - generic [ref=f4e12]:
+                      - text: Error 153
+                      - text: Video player configuration error
+                - link "Visit YouTube to search for more videos" [ref=f4e13] [cursor=pointer]:
+                  - /url: https://www.youtube.com
+                  - img
+    - contentinfo:
+      - generic [ref=e167]: ТОО 'Центр Информационных Технологий ДАМУ'
+      - link "www.cit-damu.kz" [ref=e169] [cursor=pointer]:
+        - /url: http://www.cit-damu.kz
+      - button "Служба поддержки" [ref=e171] [cursor=pointer]
+      - generic [ref=e172]: V.1.0.0.522
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - text:       
+```

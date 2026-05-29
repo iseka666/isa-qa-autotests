@@ -31,7 +31,7 @@ test('поиск по номеру запроса', async ({ page, context }) =>
 
   const digitalOffice = new DigitalOfficePage(newPage);
 
-  const number = 'PO-26/4-10';
+  const number = 'DO-26/4-120';
 
   await digitalOffice.searchByRequestNumber(number);
   await digitalOffice.checkRequestVisible(number);

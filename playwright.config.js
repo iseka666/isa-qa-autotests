@@ -3,6 +3,17 @@ import { defineConfig } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
 
+reporter: [
+  ['list'],
+  ['allure-playwright']
+],
+
+  reporter: [
+    ['list'],
+    ['junit', { outputFile: 'test-results/results.xml' }],
+    ['allure-playwright']
+  ],
+
   projects: [
     {
       name: 'setup',
@@ -25,9 +36,17 @@ export default defineConfig({
             '--disable-features=IsolateOrigins,site-per-process'
           ],
         },
+        use: {
+  storageState: 'storageState.json',
+
+  screenshot: 'only-on-failure',
+  video: 'retain-on-failure',
+  trace: 'retain-on-failure',
+},
       },
 
       dependencies: ['setup'],
     },
   ],
+  timeout: 60000,
 });

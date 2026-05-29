@@ -1,0 +1,363 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4] [cursor=pointer]: Закрыть
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "doctor Поликлиника" [ref=e7] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e9]
+          - text: Поликлиника
+      - listitem [ref=e10]:
+        - link "doctor Стационар" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e13]
+          - text: Стационар
+      - listitem [ref=e14]:
+        - link "doctor Лаборатория" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e17]
+          - text: Лаборатория
+      - listitem [ref=e18]:
+        - link "doctor Финансы" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e21]
+          - text: Финансы
+      - listitem [ref=e22]:
+        - link "doctor Документы" [ref=e23] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e25]
+          - text: Документы
+      - listitem [ref=e26]:
+        - link "doctor Ресурсы" [ref=e27] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e29]
+          - text: Ресурсы
+      - listitem [ref=e30]:
+        - link "doctor Пользователи" [ref=e31] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e33]
+          - text: Пользователи
+      - listitem [ref=e34]:
+        - link "doctor Отчеты и выгрузки" [ref=e35] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e37]
+          - text: Отчеты и выгрузки
+      - listitem [ref=e38]:
+        - link "doctor Мониторинг показателей работы" [ref=e39] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e41]
+          - text: Мониторинг показателей работы
+      - listitem [ref=e42]:
+        - link "doctor Мониторинг риск-пациентов" [ref=e43] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e45]
+          - text: Мониторинг риск-пациентов
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "Главная" [ref=e48] [cursor=pointer]:
+              - /url: https://warehouse-test.dmed.kz
+          - listitem [ref=e49]:
+            - link "Дашборды" [ref=e50] [cursor=pointer]:
+              - /url: https://warehouse-test.dmed.kz/dashboards
+          - listitem [ref=e51]:
+            - link "Индикаторы" [active] [ref=e52] [cursor=pointer]:
+              - /url: https://warehouse-test.dmed.kz/indicators
+          - listitem [ref=e53]:
+            - link "Мониторинг риск-пациентов" [ref=e54] [cursor=pointer]:
+              - /url: https://warehouse-test.dmed.kz/orphanCandidates
+      - listitem [ref=e55]:
+        - link "doctor Руководитель клиники" [ref=e56] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e58]
+          - text: Руководитель клиники
+      - listitem [ref=e59]:
+        - link "doctor Цифровая медицинская карта" [ref=e60] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e62]
+          - text: Цифровая медицинская карта
+      - listitem [ref=e63]:
+        - link "doctor Аптека" [ref=e64] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e66]
+          - text: Аптека
+      - listitem [ref=e67]:
+        - link "doctor Служба поддержки" [ref=e68] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e70]
+          - text: Служба поддержки
+      - listitem [ref=e71]:
+        - link "doctor Интеграционная шина" [ref=e72] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e74]
+          - text: Интеграционная шина
+      - listitem [ref=e75]:
+        - link "doctor Справочники" [ref=e76] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e78]
+          - text: Справочники
+      - listitem [ref=e79]:
+        - link "doctor Касса" [ref=e80] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e82]
+          - text: Касса
+      - listitem [ref=e83]:
+        - link "doctor Кабинет эпидемиолога" [ref=e84] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e86]
+          - text: Кабинет эпидемиолога
+      - listitem [ref=e87]:
+        - link "doctor Репродуктология" [ref=e88] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e90]
+          - text: Репродуктология
+      - listitem [ref=e91]:
+        - link "doctor Учет ЛС" [ref=e92] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e94]
+          - text: Учет ЛС
+      - listitem [ref=e95]:
+        - link "doctor Инвентаризация" [ref=e96] [cursor=pointer]:
+          - /url: "#"
+          - img "doctor" [ref=e98]
+          - text: Инвентаризация
+  - text:   
+  - generic [ref=e99]:
+    - list [ref=e100]:
+      - listitem [ref=e101]:
+        - link "" [ref=e102] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e103]: 
+    - generic [ref=e106]:
+      - button "support_206 ЦАРЁВА Е. В. 1, Рентгенология" [ref=e107] [cursor=pointer]:
+        - img [ref=e109]
+        - text: support_206
+        - text: ЦАРЁВА Е. В.
+        - text: 1, Рентгенология
+      - text: 
+    - list [ref=e111]:
+      - listitem [ref=e112]:
+        - link " Пользователи" [ref=e113] [cursor=pointer]:
+          - /url: /Authentication/User
+          - generic [ref=e114]: 
+          - text: Пользователи
+      - listitem [ref=e115]:
+        - link " Роли" [ref=e116] [cursor=pointer]:
+          - /url: /Authentication/Role
+          - generic [ref=e117]: 
+          - text: Роли
+      - listitem [ref=e118]:
+        - link " Действия с пользователем" [ref=e119] [cursor=pointer]:
+          - /url: /Authentication/UserAction
+          - generic [ref=e120]: 
+          - text: Действия с пользователем
+      - listitem [ref=e121]:
+        - link " Пользователи-системы" [ref=e122] [cursor=pointer]:
+          - /url: /Authentication/SystemUser
+          - generic [ref=e123]: 
+          - text: Пользователи-системы
+      - listitem [ref=e124]:
+        - link " Новости" [ref=e125] [cursor=pointer]:
+          - /url: /Authentication/News
+          - generic [ref=e126]: 
+          - text: Новости
+      - listitem [ref=e127]:
+        - link " Заметки" [ref=e128] [cursor=pointer]:
+          - /url: /Authentication/ReleaseNote
+          - generic [ref=e129]: 
+          - text: Заметки
+      - listitem [ref=e130]:
+        - link " Уведомления" [ref=e131] [cursor=pointer]:
+          - /url: /Authentication/Notification
+          - generic [ref=e132]: 
+          - text: Уведомления
+      - listitem [ref=e133]:
+        - link " Счетчики сайта" [ref=e134] [cursor=pointer]:
+          - /url: /Authentication/SiteCounter/Edit
+          - generic [ref=e135]: 
+          - text: Счетчики сайта
+      - listitem [ref=e136]:
+        - link "Карта разрешений" [ref=e137] [cursor=pointer]:
+          - /url: /Authentication/DataAccess
+      - listitem [ref=e138]:
+        - link "Заявки на доступ" [ref=e139] [cursor=pointer]:
+          - /url: /Authentication/HelpDescAccess
+      - listitem [ref=e140]:
+        - link "Управление секретностью" [ref=e141] [cursor=pointer]:
+          - /url: /Authentication/SecretLevelManage
+  - generic [ref=e142]:
+    - generic [ref=e144]:
+      - list [ref=e145]:
+        - listitem [ref=e146]:
+          - link "Модули" [ref=e147] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e148]:
+          - link "Главная" [ref=e149] [cursor=pointer]:
+            - /url: /Authentication/Home
+        - listitem [ref=e150]:
+          - link "Заметки" [ref=e151] [cursor=pointer]:
+            - /url: /Authentication/ReleaseNote/ReleaseNotes
+        - listitem [ref=e152]:
+          - link "Новости" [ref=e153] [cursor=pointer]:
+            - /url: /Authentication/News/News
+        - listitem [ref=e154]:
+          - link "Руководства" [ref=e155] [cursor=pointer]:
+            - /url: /Authentication/Manual
+        - listitem [ref=e156]:
+          - link "Обучение" [ref=e157] [cursor=pointer]:
+            - /url: /Authentication/Tutorial
+        - listitem [ref=e158]:
+          - link "Интерактивное обучение" [ref=e159] [cursor=pointer]:
+            - /url: https://wiki-test.dmed.kz/home?nodeCode=Training
+        - listitem [ref=e160]:
+          - link "Протоколы лечения" [ref=e161] [cursor=pointer]:
+            - /url: https://wikiru.damumed.kz/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB%D1%8B_%D0%B4%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D0%BA%D0%B8_%D0%B8_%D0%BB%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F
+        - listitem [ref=e162]:
+          - link "Помощь Фонда Новые" [ref=e163] [cursor=pointer]:
+            - /url: /Authentication/FmsHelp
+            - text: Помощь Фонда
+            - paragraph [ref=e165]: Новые
+        - listitem [ref=e166]:
+          - link "FAQ Новые" [ref=e167] [cursor=pointer]:
+            - /url: https://wikiru.damumed.kz/index.php?title=%D0%9A%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F:%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5_%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%8B_%D0%B4%D0%BB%D1%8F_%D0%9C%D0%98%D0%A1
+            - text: FAQ
+            - paragraph [ref=e169]: Новые
+      - list [ref=e170]:
+        - listitem [ref=e171]:
+          - button "" [ref=e172] [cursor=pointer]:
+            - generic [ref=e173]: 
+        - listitem [ref=e175]:
+          - link "" [ref=e176] [cursor=pointer]:
+            - /url: /Authentication/Authentication/SignOut?userName=support_206
+            - generic [ref=e177]: 
+      - button "" [ref=e178] [cursor=pointer]:
+        - generic [ref=e179]: 
+    - generic [ref=e180]:
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - generic [ref=e188]:
+            - heading "31 декабрь" [level=3] [ref=e189]
+            - heading "С наступающим 2025!" [level=4] [ref=e191]
+            - link "Подробнее" [ref=e193] [cursor=pointer]:
+              - /url: /authentication/releaseNote/item/20019
+          - generic [ref=e195]:
+            - heading "13 апрель" [level=3] [ref=e196]
+            - heading "23235235235235" [level=4] [ref=e198]
+            - link "Подробнее" [ref=e200] [cursor=pointer]:
+              - /url: /authentication/releaseNote/item/10009
+          - generic [ref=e202]:
+            - heading "26 март" [level=3] [ref=e203]
+            - heading "ВНИМАНИЕ! Ознакомьтесь пожалуйста со списком обновлений" [level=4] [ref=e205]
+            - link "Подробнее" [ref=e207] [cursor=pointer]:
+              - /url: /authentication/releaseNote/item/10008
+        - link "Все заметки" [ref=e211] [cursor=pointer]:
+          - /url: /authentication/releaseNote/releaseNotes
+      - generic [ref=e214]:
+        - heading "Новости Все новости" [level=3] [ref=e215]:
+          - text: Новости
+          - link "Все новости" [ref=e216] [cursor=pointer]:
+            - /url: /authentication/news/news
+        - generic [ref=e217]:
+          - list [ref=e218]:
+            - listitem [ref=e219] [cursor=pointer]
+            - listitem [ref=e220] [cursor=pointer]
+            - listitem [ref=e221] [cursor=pointer]
+            - listitem [ref=e222] [cursor=pointer]
+          - listbox [ref=e223]:
+            - generic [ref=e224]:
+              - heading "07.03.2018" [level=5] [ref=e227]
+              - heading "Не показывает" [level=3] [ref=e230]
+              - link "Подробнее" [ref=e233] [cursor=pointer]:
+                - /url: /authentication/news/item/10068
+          - button "Previous" [ref=e234] [cursor=pointer]:
+            - generic [ref=e235]: 
+            - generic [ref=e236]: Previous
+          - button "Next" [ref=e237] [cursor=pointer]:
+            - generic [ref=e238]: 
+            - generic [ref=e239]: Next
+      - generic [ref=e241]:
+        - heading "Обучение Все обучающие ролики" [level=3] [ref=e244]:
+          - text: Обучение
+          - link "Все обучающие ролики" [ref=e245] [cursor=pointer]:
+            - /url: /tutorial
+        - generic [ref=e246]:
+          - iframe [ref=e250]:
+            - generic "YouTube Video Player" [ref=f1e3]:
+              - alert [ref=f1e4]:
+                - generic [ref=f1e5]:
+                  - generic [ref=f1e6]:
+                    - img
+                  - generic [ref=f1e7]:
+                    - link "Watch video on YouTube" [ref=f1e10] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=5Dj4J6zitEw&source_ve_path=MTc4NDI0
+                    - generic [ref=f1e12]:
+                      - text: Error 153
+                      - text: Video player configuration error
+                - link "Visit YouTube to search for more videos" [ref=f1e13] [cursor=pointer]:
+                  - /url: https://www.youtube.com
+                  - img
+          - iframe [ref=e254]:
+            - generic "YouTube Video Player" [ref=f2e3]:
+              - alert [ref=f2e4]:
+                - generic [ref=f2e5]:
+                  - generic [ref=f2e6]:
+                    - img
+                  - generic [ref=f2e7]:
+                    - link "Watch video on YouTube" [ref=f2e10] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=91xEujAVeaM&source_ve_path=MTc4NDI0
+                    - generic [ref=f2e12]:
+                      - text: Error 153
+                      - text: Video player configuration error
+                - link "Visit YouTube to search for more videos" [ref=f2e13] [cursor=pointer]:
+                  - /url: https://www.youtube.com
+                  - img
+        - generic [ref=e255]:
+          - iframe [ref=e259]:
+            - generic "YouTube Video Player" [ref=f3e3]:
+              - alert [ref=f3e4]:
+                - generic [ref=f3e5]:
+                  - generic [ref=f3e6]:
+                    - img
+                  - generic [ref=f3e7]:
+                    - link "Watch video on YouTube" [ref=f3e10] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=UJ6IdowiTYI&source_ve_path=MTc4NDI0
+                    - generic [ref=f3e12]:
+                      - text: Error 153
+                      - text: Video player configuration error
+                - link "Visit YouTube to search for more videos" [ref=f3e13] [cursor=pointer]:
+                  - /url: https://www.youtube.com
+                  - img
+          - iframe [ref=e263]:
+            - generic "YouTube Video Player" [ref=f4e3]:
+              - alert [ref=f4e4]:
+                - generic [ref=f4e5]:
+                  - generic [ref=f4e6]:
+                    - img
+                  - generic [ref=f4e7]:
+                    - link "Watch video on YouTube" [ref=f4e10] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=yA-TmWrPlw4&source_ve_path=MTc4NDI0
+                    - generic [ref=f4e12]:
+                      - text: Error 153
+                      - text: Video player configuration error
+                - link "Visit YouTube to search for more videos" [ref=f4e13] [cursor=pointer]:
+                  - /url: https://www.youtube.com
+                  - img
+    - contentinfo:
+      - generic [ref=e264]: ТОО 'Центр Информационных Технологий ДАМУ'
+      - link "www.cit-damu.kz" [ref=e266] [cursor=pointer]:
+        - /url: http://www.cit-damu.kz
+      - button "Служба поддержки" [ref=e268] [cursor=pointer]
+      - generic [ref=e269]: V.1.0.0.522
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - generic: 13|141005
+  - text:       
+```
