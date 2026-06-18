@@ -16,7 +16,7 @@ export class IndicatorsPage {
 
  async open() {
   await this.page.goto('https://warehouse-test.dmed.kz/indicators', {
-    waitUntil: 'networkidle',
+    waitUntil: 'domcontentloaded',
   });
 
   // ждём что реально загрузился инпут

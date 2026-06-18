@@ -15,12 +15,8 @@ for (const indicator of INDICATORS) {
 
     await mainPage.openMonitoring();
 
-    const newPage =
-      await mainPage.openDigitalOffice(context);
-
-    await newPage.waitForLoadState('domcontentloaded');
-
-    await newPage.getByText('Индикаторы').click();
+   const newPage =
+    await mainPage.openIndicators(context);
 
     const indicatorsPage =
       new IndicatorsPage(newPage);
