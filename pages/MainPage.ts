@@ -30,15 +30,15 @@ async openModules() {
 
   return newPage;
 }
-async openIndicators(context: BrowserContext) {
-  const [newPage] = await Promise.all([
-    context.waitForEvent('page'),
-    this.page.getByRole('link', { name: 'Индикаторы' }).click()
-  ]);
+async openIndicators() {
+  await this.page.getByRole('link', {
+    name: 'Индикаторы'
+  }).click();
 
-  await newPage.waitForURL('**warehouse-test.dmed.kz/**');
-  await newPage.waitForLoadState('domcontentloaded');
+  await this.page.waitForLoadState('domcontentloaded');
 
-  return newPage;
+  console.log(await this.page.url());
+
+  return this.page;
 }
 }

@@ -5,7 +5,7 @@ import { INDICATORS } from './data/indicators';
 
 for (const indicator of INDICATORS) {
 
-  test(`Индикатор: ${indicator}`, async ({ page, context }) => {
+ test(`Индикатор: ${indicator}`, async ({ page }) => {
 
     await page.goto('https://test.dmed.kz/');
 
@@ -15,11 +15,10 @@ for (const indicator of INDICATORS) {
 
     await mainPage.openMonitoring();
 
-   const newPage =
-    await mainPage.openIndicators(context);
-
-    const indicatorsPage =
-      new IndicatorsPage(newPage);
+   const indicatorsPage =
+  new IndicatorsPage(
+    await mainPage.openIndicators()
+  );
 
     await indicatorsPage.search(indicator);
 
