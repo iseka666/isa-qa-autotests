@@ -28,19 +28,26 @@ export class IndicatorsPage {
 
 async search(name: string) {
 
-  const input =
-    this.page.getByPlaceholder('Поиск индикатора');
+    const input =
+        this.page.getByPlaceholder('Поиск индикатора');
 
-  await input.waitFor({
-    state: 'visible',
-    timeout: 30000
-  });
+    console.log(await this.page.url());
+    console.log(await this.page.title());
 
-  await input.clear();
+    await this.page.screenshot({
+        path: 'search-page.png',
+        fullPage: true
+    });
 
-  await input.fill(name);
+    await input.waitFor({
+        state: 'visible',
+        timeout: 30000
+    });
 
-  await this.page.waitForTimeout(1000);
+    await input.clear();
+    await input.fill(name);
+
+    await this.page.waitForTimeout(1000);
 }
 
  async select(name: string) {

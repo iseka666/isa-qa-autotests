@@ -30,15 +30,22 @@ async openModules() {
 
   return newPage;
 }
-async openIndicators() {
-  await this.page.getByRole('link', {
-    name: 'Индикаторы'
-  }).click();
+async openIndicators(context: BrowserContext) {
 
-  await this.page.waitForLoadState('domcontentloaded');
+    const indicators = this.page.getByRole('link', {
+        name: 'Индикаторы'
+    });
 
-  console.log(await this.page.url());
+    const [newPage] = await Promise.all([
+        context.waitForEvent('page'),
+        indicators.click()
+    ]);
 
-  return this.page;
+    await newPage.waitForURL('**/indicators');
+
+    await newPage.waitForLoadState('domcontentloaded');
+
+    return newPage;
 }
 }
+
